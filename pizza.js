@@ -7,7 +7,7 @@
 var program = require('commander');
 var inquirer = require('inquirer');
 
-program
+programpizza
   .version('0.0.1')
   .description('An application for pizzas ordering')
   .option('-p, --peppers', 'Add peppers')
@@ -126,7 +126,7 @@ var questions = [
 
 
 inquirer.prompt(questions).then(answers => {
-  //console.log(JSON.stringify(answers, null, '  '));
+  
 
   //Once user enters in details - set the pizza order for him
 
@@ -141,7 +141,9 @@ inquirer.prompt(questions).then(answers => {
 
   console.log('  - %s cheese', cheese);
   console.log(program.args);
-  
+
+  //Tell the details based on user answers
+  console.log(JSON.stringify(answers, null, '  '));
 });
 
 
