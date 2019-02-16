@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/pizza.js"
+            "program": "${workspaceFolder}/pizza_new.js"
         }
     ]
 }
