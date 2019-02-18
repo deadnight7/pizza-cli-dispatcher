@@ -13,3 +13,4 @@ script:
 - npm install
 - npm link
 - pizza -V
+- npm test
