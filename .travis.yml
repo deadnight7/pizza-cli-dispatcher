@@ -1,0 +1,12 @@
+language: node_js
+sudo: required
+node: 
+os:
+- linux
+node_js:
+- '10'
+- '8'
+script:
+- npm install
+- npm link
+- pizza -v
