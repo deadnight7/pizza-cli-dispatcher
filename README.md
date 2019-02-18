@@ -1,5 +1,7 @@
 ### Pizza Ordering CLI Program
 
+[![Build Status](https://travis-ci.org/deadnight7/pizza-cli-dispatcher.svg?branch=master)](https://travis-ci.org/deadnight7/pizza-cli-dispatcher)
+
 Node JS CLI Program for ordering pizzas
 
 Will ask a couple of questions to order pizza
