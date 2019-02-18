@@ -7,6 +7,6 @@ node_js:
 - '10'
 - '8'
 script:
-- sudo npm install
-- sudo npm link
-- sudo pizza -v
+- npm install
+- npm link
+- pizza -V
